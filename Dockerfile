@@ -1,0 +1,7 @@
+# WorkShopDockerRepository
+
+FROM ubuntu:14.04
+MAINTAINER CharuLata<sundaramgupta6@gmail.com>
+
+RUN apt-get update && apt-get install nmap \
+      htop -y
